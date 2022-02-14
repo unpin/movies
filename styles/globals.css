@@ -30,8 +30,14 @@ button {
 }
 
 .container {
-    max-width: 1440px;
+    width: 100%;
     margin: auto;
     padding-left: 1rem;
     padding-right: 1rem;
+}
+
+@media screen and (min-width: 600px) {
+    .container {
+        max-width: 1440px;
+    }
 }
