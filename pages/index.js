@@ -41,11 +41,7 @@ export default function Home() {
                 <link rel="icon" href="/favicon.ico" />
 
                 <link rel="preconnect" href="https://fonts.googleapis.com" />
-                <link
-                    rel="preconnect"
-                    href="https://fonts.gstatic.com"
-                    crossorigin
-                />
+                <link rel="preconnect" href="https://fonts.gstatic.com" />
                 <link
                     href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,500;0,700;1,400&display=swap"
                     rel="stylesheet"
@@ -60,7 +56,11 @@ export default function Home() {
             </main>
 
             <footer className={styles.footer}>
-                <a href="https://github.com/unpin" target="_blank">
+                <a
+                    href="https://github.com/unpin"
+                    target="_blank"
+                    rel="noreferrer"
+                >
                     GitHub{' '}
                     <span className={styles.logo}>
                         <Image
@@ -72,7 +72,11 @@ export default function Home() {
                     </span>
                 </a>
                 <span>2022</span>
-                <a href="https://rs.school/js-stage0" target="_blank">
+                <a
+                    href="https://rs.school/js-stage0"
+                    target="_blank"
+                    rel="noreferrer"
+                >
                     <span className={styles.logo}>
                         <Image
                             src="/svg/rs_school_js.svg"
