@@ -1,0 +1,72 @@
+.movieSection {
+    margin: 70px 0;
+}
+
+.movieSection h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 2.75rem;
+    text-align: center;
+}
+
+.movieList {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.movieItem {
+    width: 330px;
+    border-radius: 4px;
+}
+
+.movieItem > * + * {
+    margin-top: 0.5rem;
+}
+
+.movieItem .moviePoster {
+    height: 185px;
+    object-fit: cover;
+    border-radius: 4px;
+    transition: all 250ms ease-in-out;
+    cursor: pointer;
+}
+
+.movieItem .moviePoster:hover {
+    transform: scale(1.0125);
+    filter: saturate(1.25);
+}
+
+.movieYear {
+    font-size: 14px;
+    font-weight: bold;
+    color: #9ca3af;
+}
+
+.movieTitle {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.overview {
+    color: #9ca3af;
+    font-size: 14px;
+}
+
+.ratings {
+    display: flex;
+    justify-content: space-between;
+}
+
+.rating {
+    display: flex;
+    align-items: center;
+    font-weight: normal;
+    font-size: 14px;
+}
+
+.rating > img {
+    margin-right: 0.5rem;
+}
