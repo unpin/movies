@@ -1,0 +1,64 @@
+.header {
+    min-height: 400px;
+    color: white;
+    padding-bottom: 1rem;
+    background: url(/images/hero.jpg) center / cover no-repeat;
+}
+
+.descriptionBox {
+    color: white;
+}
+
+.descriptionBox h1 {
+    margin-bottom: 1rem;
+}
+
+.descriptionBox p {
+    margin-bottom: 1.5rem;
+}
+
+.ratings {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+}
+
+.ratingItem {
+    display: flex;
+    align-items: center;
+    margin-right: 1rem;
+}
+
+.ratingItem > img {
+    margin-right: 1rem;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    background-color: hsl(345, 83%, 41%);
+    text-transform: uppercase;
+    color: white;
+}
+
+.button:hover {
+    background-color: hsl(345, 83%, 45%);
+}
+
+.button img {
+    width: 20px;
+    margin-right: 0.5rem;
+    filter: invert();
+}
+
+@media screen and (min-width: 768px) {
+    .header {
+        height: 600px;
+    }
+
+    .descriptionBox {
+        max-width: 440px;
+        margin-top: 6rem;
+    }
+}
